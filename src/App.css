@@ -1,0 +1,28 @@
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff; /* Set the background color of your modal */
+  padding: 20px;
+  width: 35vw;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for depth */
+}
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
